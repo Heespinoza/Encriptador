@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Encriptador</title>
+  <link rel="stylesheet" href="/Style.css">
+</head>
+
+<body>
+  <header>
+    <img class="logo" src="/Imagenes/Logo.png" alt="Una A de ALURA">
+  </header>
+  <main>
+
+    <section class="section1">
+      <div class="contenedorcajatexto">
+        <textarea class="area-texto" placeholder="Ingrese el texto aqui" id="texto"></textarea>
+
+      </div>
+      <div class="alerta">
+        <img src="/Imagenes/Group (1).jpg" alt="">
+        <p>Solo letras minusculas y sin acento o caracteres especiales.</p>
+      </div>
+      <div class="botones">
+        <button class="btn-encriptar" type="button" id="btn-encriptar"> Encriptar</button> 
+        <button class="btn-desencriptar"
+          type="button" id="btn-desencriptar">Desencriptar</button>
+      </div>
+    </section>
+
+    <section class="section2">
+      <div class="cuadroresultado">
+        <img class="img-cuadro" src="/Imagenes/Muñeco.jpg" alt="Persona arodillada">
+        
+      </div>
+
+      <div class="mje-cuadro">
+        <h3>
+          Ningun mensaje fue encontrado
+        </h3>
+        <p>
+          Ingrese el texto que desees encriptar o desencriptar.
+        </p>
+      </div>
+      
+      
+      
+        <textarea readonly class="mje-resultado" id="texto-resultado" ></textarea>
+        
+        
+        <button class="btn-copiar" type="button" id="btn-copy" value="copiar"> Copiar</button>
+
+      
+
+    </section>
+    
+  </main>
+  <footer>
+    <p class="Copyright">&copy; Copyright 2023 - Encriptador de Texto - Heber Espinoza </p>
+  </footer>
+
+  <script src="Scrip.js"> </script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+
+</html>
